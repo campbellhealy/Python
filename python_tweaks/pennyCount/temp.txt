@@ -1,0 +1,8 @@
+Randome value between 1 - 100
+
+Count the number of guesses
+Maximum number of guesses
+
+Does the guess equal the random Value
+Is the guess higher than the randon value 
+is the guess lower that the random Value 
