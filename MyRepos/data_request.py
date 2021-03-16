@@ -7,18 +7,27 @@ A simple GET request that could easily be made to any GitHub user account for pu
 import json
 import requests
 
+from username import username
+
+username = username()
 def getRequest():
+    # Build URL so it is easy to see username
+    url1 = 'https://api.github.com/users/'
+    url2 = '/repos'
+    fullUrl = url1 + username + url2
+
     # GET request to obtain the list
-    r = requests.get('https://api.github.com/users/vchealy/repos')
+    r = requests.get(fullUrl)
 
     # Convert the object into json format
     clean = r.json()
     json_object = json.dumps(clean)
+    tempFile = 'temp_' + username + '.json'
 
     # Write the whole Object to a file for reuse rather than hit API every time
-    with open('temp.json','w') as wholeJson:
+    with open(tempFile,'w') as wholeJson:
         wholeJson.write(json_object)
-    return
+    return tempFile
 
 if __name__ == "__main__":
    print("Data Request executed when ran directly")
