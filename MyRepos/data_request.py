@@ -22,5 +22,6 @@ def getRequest():
 
 if __name__ == "__main__":
    print("Data Request executed when ran directly")
+   getRequest()
 else:
    print("Data Request executed when imported")
