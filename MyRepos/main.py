@@ -24,3 +24,10 @@ extractName()
 
 # This is the final output
 print(extractName())
+
+if __name__ == "__main__":
+    print("Main executed when ran directly")
+    getRequest()
+    extractName()
+else:
+    print("Blah")

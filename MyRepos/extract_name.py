@@ -14,3 +14,8 @@ def extractName():
             if key == "full_name":
                 repoNames.append(value)
     return repoNames
+
+if __name__ == "__main__":
+   print("Name Extract executed when ran directly")
+else:
+   print("Name Extract eexecuted when imported")

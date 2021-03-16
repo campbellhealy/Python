@@ -19,3 +19,8 @@ def getRequest():
     with open('temp.json','w') as wholeJson:
         wholeJson.write(json_object)
     return
+
+if __name__ == "__main__":
+   print("Data Request executed when ran directly")
+else:
+   print("Data Request executed when imported")
