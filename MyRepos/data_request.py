@@ -9,12 +9,12 @@ import requests
 
 from username import username
 
-username = username()
+user = username()
 def getRequest():
     # Build URL so it is easy to see username
     url1 = 'https://api.github.com/users/'
     url2 = '/repos'
-    fullUrl = url1 + username + url2
+    fullUrl = url1 + user + url2
 
     # GET request to obtain the list
     r = requests.get(fullUrl)
@@ -22,7 +22,7 @@ def getRequest():
     # Convert the object into json format
     clean = r.json()
     json_object = json.dumps(clean)
-    tempFile = 'temp_' + username + '.json'
+    tempFile = 'temp_' + user + '.json'
 
     # Write the whole Object to a file for reuse rather than hit API every time
     with open(tempFile,'w') as wholeJson:
