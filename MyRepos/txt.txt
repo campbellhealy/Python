@@ -1,0 +1,23 @@
+Python
+    vchealy/pybite_code_challenges
+    vchealy/PythonWebScrapes      
+    vchealy/python_hangman        
+    vchealy/python_tweaks
+Django
+    vchealy/Django-Blog
+    vchealy/DjangoAddTeam
+    vchealy/DjangoAppSearch       
+    vchealy/DjangoBaseWebApp      
+    vchealy/Django_3.1.2_Tutorial 
+    vchealy/Django_Football_App   
+vchealy/DataScienceFromScratch
+vchealy/fromScratch
+    vchealy/hello_world
+    vchealy/JobSearcher
+    vchealy/myTransXtoGTFS        
+vchealy/vchealy.github.io
+Javascript
+    vchealy/Chitter
+Go
+C#
+Ruby
