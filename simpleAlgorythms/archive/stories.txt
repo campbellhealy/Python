@@ -1,0 +1,132 @@
+Stories
+
+1.
+# Base first guess and result
+guess the middle
+number higher
+
+guess the middle
+number lower 
+
+50, 75, 
+50, 25, 
+
+2.
+# Base first guess result, second guess same direction result
+guess the middle
+number higher
+number higher
+
+guess the middle
+number lower 
+number lower 
+
+50, 75, 87
+50, 25, 12
+
+3.
+# Base first, result, second opposite direction, result
+guess the middle
+number higher
+number lower
+
+guess the middle
+number lower 
+number higher
+
+50, 75, 62
+50, 25, 31
+
+4.
+# Base first, result, second opposite direction, result third opposite direction again result
+guess the middle
+number higher
+number lower
+number higher
+
+guess the middle
+number lower 
+number higher
+number lower
+
+50, 75, 62, 69
+50, 25, 37, 31
+
+
+4.
+For Target being higher than current_guess
+    50 - last_guess h
+    75 - l
+    50 < next_guess < 75
+
+    last_guess < next_guess < current_guess
+
+For Target being lower than current_guess
+    50 - last_guess l
+    25 - h 
+    25 < next_guess < 50
+
+    next_guess  < current_guess <  last_guess
+
+
+25 - guess
+
+greater than
+last_guess + guess /2
+
+less than
+50, 25 , 12
+
+50
+75
+500,750, 625, 625 - 750
+last guess - max-guess /2
+
+less must be >50 but <75
+
+
+500, 250, 125 
+last guess min(guess[1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6
+
+great than 5
+list has 5
+guess 7
+
+list 5,7  last guess = 5
+
+sort list
+less than 7 but > 5
+
+the guess must be < max_guess but > last_guess
+
+3
+
+less than 5
+list 5
+
+great than 2
+sort list
+list 2,5
+
+the guess must be > min_guess but less than min_guess[1]
