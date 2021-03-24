@@ -1,0 +1,59 @@
+Stories
+
+X & the Y
+
+Rather than rewriting the stories of the simpleAlgorithm, It is easier to reuse these
+ stories and state that on story 4. will be the focus for the test in each of the planes, X and Y.
+I will leave the other stories here as a reference on how I got to the final story.
+  
+1.
+# Base first guess and result
+guess the middle
+number higher
+
+guess the middle
+number lower 
+
+50, 75, 
+50, 25, 
+
+2.
+# Base first guess result, second guess same direction result
+guess the middle
+number higher
+number higher
+
+guess the middle
+number lower 
+number lower 
+
+50, 75, 87
+50, 25, 12
+
+3.
+# Base first, result, second opposite direction, result
+guess the middle
+number higher
+number lower
+
+guess the middle
+number lower 
+number higher
+
+50, 75, 62
+50, 25, 31
+
+4.
+# Base first, result, second opposite direction, result third opposite direction again result
+guess the middle
+number higher
+number lower
+number higher
+
+guess the middle
+number lower 
+number higher
+number lower
+
+50, 75, 62, 69
+50, 25, 37, 31
