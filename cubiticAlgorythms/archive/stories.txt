@@ -1,0 +1,21 @@
+Story
+
+X, Y & Z
+
+The simple way of extening my previous now shows in the short time it has taken me to
+turn the quadratic algorithm into the Cubitic Algorithm. 10 minutes
+  
+
+# Base first, result, second opposite direction, result third opposite direction again result
+guess the middle
+number higher
+number lower
+number higher
+
+guess the middle
+number lower 
+number higher
+number lower
+
+50, 75, 62, 69
+50, 25, 37, 31
