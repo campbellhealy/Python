@@ -16,13 +16,9 @@ def binary(value):
     for count in range(possibles):
         if value == guess:
             count += 1
-            # print(f'\nHalver Search found the Correct Value {value} in {count} guesses.\n')
-            break
-        
+            break      
         elif guess < value:
             count += 1
-            # print(f'Your guess of {guess} is lower than target')
-            # print(f' This is guess number: {count}')
             guesses.append(guess)
             if len(guesses) == 1:
                 last_guess = 0
@@ -35,8 +31,6 @@ def binary(value):
 
         elif guess > value:
             count += 1
-            # print(f'Your guess of {guess} is greater than target')
-            # print(f' This is guess number: {count}')
             guesses.append(guess)
             if len(guesses) == 1:
                 last_guess = 0
@@ -46,5 +40,4 @@ def binary(value):
                 last_guess = guesses[-2]
             next_guess = int(guess - (int(abs(guess - last_guess))/2))
             guess = next_guess
-    # print(guesses)
     return guess,count
