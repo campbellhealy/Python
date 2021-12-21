@@ -27,7 +27,7 @@ def am_bored():
     url = 'https://www.boredapi.com/api/activity'
     response = getapi(url)
     giveoutput(response)
-    again = input('Do you want another suggestion? (Y/N)\n').lower()
+    again = input(' Do you want another suggestion? (Y/N)\n').lower()
     if again == 'y':
         am_bored()
     else:
